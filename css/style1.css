@@ -1,0 +1,288 @@
+.first_block_carousel{
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    margin-top: 45px;
+    background: url(../img/carousel/carousel_1.svg);
+}
+
+.first_block_carousel > .img_for_carousel > img{
+    -webkit-object-fit: fill;
+    -moz-object-fit: fill;
+    object-fit: fill;
+}
+
+.text_and_btn_for_carousel{
+    min-height: 283px;
+    height: 100%;
+    max-width: 1196px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.carousel__txt_and_btn{
+    width: 338px;
+}
+.img_for_carousel{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-left: 7.5rem;
+    padding-top: 10rem;
+}
+.carousel__txt_title{
+    width: 338px;
+    height: 84px;
+    font-family: Fahkwang;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 130%;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.carousel__txt_subtitle{
+    width: 338px;
+    height: 72px;
+    color: #ffffff;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 48px;
+}
+.carousel__btn{
+    width: 210px;
+    height: 63px;
+}
+
+
+.carousel__btn > button{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: #fcb830;
+    color: #000;
+    font-family: Fahkwang;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    border: none;
+    cursor: pointer;
+}
+.carousel__btn > button:hover{
+    background: #FCDB30;
+}
+.carousel__btn > button:focus{
+    background: #EA9D03;
+}
+
+/* ................................................. */
+.controls{
+    width: 142px;
+    height: 283px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.ctrl_prev{
+    width: 63px;
+    height: 63px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ctrl_prev:hover{
+    box-shadow: 0px 13px 14px rgba(0, 0, 0, 0.05);
+}
+.ctrl_next{
+    width: 63px;
+    height: 63px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ctrl_next:hover{
+    box-shadow: 0px 13px 14px rgba(0, 0, 0, 0.05);
+}
+
+
+
+/* ................................................ */
+.filter_voyants{
+    width: 100%;
+    height: 78px;
+    border-bottom: 1px solid #d0d0d0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.filter_voyants_item{
+    height: 100%;
+    max-width: 283px;
+    width: auto;
+    border-bottom: 3px solid transparent;
+    margin-right: 56px;
+    color: #626262;
+    font-family: Fahkwang;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter_voyants_item:hover,
+.filter_voyants_item:target,
+.filter_voyants_item:focus{
+    border-bottom: 3px solid #1078D8;
+    color: #1078D8;
+}
+
+
+
+.select_voyants_for_ability{
+    margin-top: 78px;
+    height: 390px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information_for_search_txt{
+    width: 705px;
+    height: 216px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Fahkwang;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 170%;
+}
+.select_voyants{
+    width: 706px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.select_voyants_item{
+    width: 100%;
+    height: 90px;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select_voyants_item:hover{
+    background: #1078D8;;
+}
+.icon_sel_voy_item{
+    margin: 30px 20px;
+}
+
+.icon_and_description_sel_voy {
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.icon_and_description_sel_voy > p{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Fahkwang;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000;
+}
+.select_voyants_item:hover p{
+    color: #ffffff;
+}
+
+/* ...................................................... */
+.sel_v_1 .icon_sel_voy_item {
+    width: 50px;
+    height: 50px;
+    background: url(../img/select_voyants_icon/default/img1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sel_v_1:hover .icon_sel_voy_item {
+    background: url(../img/select_voyants_icon/hover/img1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sel_v_2 .icon_sel_voy_item {
+    width: 50px;
+    height: 50px;
+    background: url(../img/select_voyants_icon/default/img2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sel_v_2:hover .icon_sel_voy_item {
+    background: url(../img/select_voyants_icon/hover/img2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sel_v_3 .icon_sel_voy_item {
+    width: 50px;
+    height: 50px;
+    background: url(../img/select_voyants_icon/default/img3.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sel_v_3:hover .icon_sel_voy_item {
+    background: url(../img/select_voyants_icon/hover/img3.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sel_v_4 .icon_sel_voy_item {
+    width: 50px;
+    height: 50px;
+    background: url(../img/select_voyants_icon/default/img4.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sel_v_4:hover .icon_sel_voy_item {
+    background: url(../img/select_voyants_icon/hover/img4.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.select_voyants_item {
+    cursor: pointer;
+}
+.select_voyants_item .sel_voy_check{
+    width: 32px;
+    height: 32px;
+    margin-right: 36px;
+    background: url(../img/select_voyants_icon/check/check_empty.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.select_voyants_item:hover .sel_voy_check{
+    background: url(../img/select_voyants_icon/check/check.svg);
+}

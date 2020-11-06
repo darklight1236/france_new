@@ -293,16 +293,6 @@
     background: url(../img/select_voyants_icon/check/check_push.svg);
 }
 
-
-/* .check_push{
-    width: 32px;
-    height: 32px;
-    margin-right: 36px;
-    background: url(../img/select_voyants_icon/check/check_push.svg) !important;
-    transition-duration: .2s;
-    background-repeat: no-repeat;
-    background-size: contain;
-} */
 .check_active{
     width: 32px;
     height: 32px;
@@ -311,4 +301,46 @@
     transition-duration: .2s;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+
+/* PERSON CONTENT */
+.people_content{
+    height: 1236px;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.person_block{
+    width: 339px;
+    height: 285px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+.p_block_up {
+    width: 100%;
+    height: 225px;
+    background: #f3f3f3;
+    padding: 30px 31px;
+    display: flex;
+    flex-direction: column;
+}
+.p_block_down {
+    width: 100%;
+    height: 60px;
+    background: #f9f9f9;
+}
+.p_block_up_r1 {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+}
+.p_block_up_r2 {
+    width: 100%;
+    height: 32px;
+    margin-top: 16px;
 }

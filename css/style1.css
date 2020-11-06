@@ -275,6 +275,7 @@
 .select_voyants_item {
     cursor: pointer;
 }
+
 .select_voyants_item .sel_voy_check{
     width: 32px;
     height: 32px;
@@ -283,6 +284,31 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .select_voyants_item:hover .sel_voy_check{
-    background: url(../img/select_voyants_icon/check/check.svg);
+    background: url(../img/select_voyants_icon/check/check_border.svg);
+}
+
+.select_voyants_item:active .sel_voy_check{
+    background: url(../img/select_voyants_icon/check/check_push.svg);
+}
+
+
+/* .check_push{
+    width: 32px;
+    height: 32px;
+    margin-right: 36px;
+    background: url(../img/select_voyants_icon/check/check_push.svg) !important;
+    transition-duration: .2s;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+.check_active{
+    width: 32px;
+    height: 32px;
+    margin-right: 36px;
+    background: url(../img/select_voyants_icon/check/check.svg) !important;
+    transition-duration: .2s;
+    background-repeat: no-repeat;
+    background-size: contain;
 }

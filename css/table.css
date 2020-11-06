@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Content{
+    width: 1400px;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+.NavbarPanel{
+    display:flex; 
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+.NavbarPanel a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+.NavbarPanel .Logo{
+    font-size: 25px;
+    float: left;
+    color: #1078d8;
+}
+.NavbarPanel .Main{
+    transform: translateY(25%);
+    display: flex;
+    justify-content: right;
+}
+.NavbarPanel .Main>a{
+    margin:0px 1rem;
+}
+.NavbarPanel .Main>a.Action{
+    color:#1078d8;
+}
+.NavbarPanel .Main .Menu{
+    display: none;
+    height: 32px;
+}
+.NavbarPanel .Main .Menu>img{
+    height: 100%;
+    max-width: 100%;
+}
+.Params{
+    font-family: 'Noto Sans';
+       width: 100%;
+    margin: 1.5rem 0;
+    min-height: 40px;
+}
+.Сalendar{
+    font-weight: bold;
+    font-size:14px;
+    border:2px solid #d5d5d5;
+    width: 150px;
+    color: #1078d8;
+    padding: 0.5rem;
+    float: left;
+}
+.Description{
+    display: flex;
+    float: right;
+    transform: translate(0px, 50%);
+}
+.Square{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.lic{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.lic>p{
+    font-size: 12px;
+    margin-right: 1rem;
+} 
+.BackGreen{
+    background: #5ab13c;
+}
+.BackGrey{
+    background: #f3f3f3;
+}
+@media screen and (min-width: 1850px) {
+    .Content{
+        width: 1800px;
+    }
+    .NavbarMob{
+        display: none !important;
+    }
+}
+@media screen and (min-width: 1450px) and (max-width: 1850px) {
+    .Content{
+        width: 1400px;
+    }
+    .NavbarMob{
+        display: none !important;
+    }
+
+}
+@media screen and (min-width: 1050px) and (max-width: 1450px) {
+    .Content{
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .NavbarMob{
+        display: none !important;
+    }
+}
+@media screen and (min-width: 650px) and (max-width: 1050px) {
+    .Content{
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .NavbarMob{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 650px) {
+    .Content{
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .TableContent{
+        padding: 0 15px;
+    }
+
+    header .NavbarPanel .Main>a{
+        display: none;
+    }
+    header .NavbarPanel .Main>.Menu{
+        display: block;
+        cursor: pointer;
+    }
+    .Сalendar{
+        float: none;
+    }
+    .Description{
+        float: none;
+    }
+    footer .NavbarPanel{
+        display: block;
+        text-align: center;
+    }
+    footer .NavbarPanel a{
+        margin: 0.5rem 0 !important;
+    }
+    footer .NavbarPanel .Logo{
+        float: none;
+    }
+    footer .NavbarPanel .Main{
+           transform: none;
+           display: grid;
+           text-align: center;
+           justify-content: center;
+    }
+    footer .lic{
+        text-align: center;
+        display: block;
+    }
+}
+.NavbarMob{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #1078d8;
+    z-index: 10;
+}
+.NavbarMob .Logo{
+    margin: auto 0;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.NavbarMob .CloseNavbar{
+    height: 100%;
+    max-width: 100%;
+    width: 30px;
+    float: right;
+}
+.NavMenu{
+    display: grid;
+       font-size: 20px;
+       width: 200px;
+       margin: 0 auto;
+       font-weight: 400;
+}
+.NavMenu a{
+    margin: 1rem 0;
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
+.ActiveNavbar:before {
+    content: ' - ';
+}
+.Users{
+    font-family: 'Noto Sans';
+    width: 100%;
+    min-width: 1300px;
+    border-collapse: collapse;
+}
+
+.Users th{
+    text-align: left;
+    font-weight: 100;
+}
+.Users thead tr{
+    background: #f3f3f3;
+}
+.Users tbody tr{
+    border-bottom: 1px solid #f3f3f3;
+}
+.Users td,.Users th{
+    padding:  0.7rem 0;
+
+}
+.Block{
+    display: flex;
+}
+.Block div{
+    display: inline-block;
+    width: 6px;
+    height: 22px;
+    background: #f3f3f3;
+    border: 1px solid #dadada;
+    margin: 0 1px;
+}
+.BlockActive{
+    background: #5ab13c !important;
+    border-color: #419225 !important;
+}
+.Block div:first-child{
+    border-radius: 2px 0 0 2px;
+}
+.Block div:last-child{
+    border-radius: 0 2px 2px 0;
+}
+.row__helper{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+.row_1__mini_block{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.row_2__mini_block{
+    width: 100%;
+    height: 145px;
+}
+.people__name{
+    color: #193776;
+    /*font-weight: 600;*/
+    font-size: 18px;
+    line-height: 23.4px;
+    margin-bottom: 7px;
+}
+.people__char{
+    display: flex;
+    flex-wrap: wrap;
+    font-size:12px;
+    /*font-weight: 600;*/
+    justify-content: flex-start;
+}
+.people__char_item{
+    background: #edf3ff;
+    color:#3B79FF;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.3rem 0.6rem;
+    margin-right: 12px;
+    margin-bottom: 12px;
+
+}
+.description__photo{
+    margin-left: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+.img__photo{
+    position: relative;
+}

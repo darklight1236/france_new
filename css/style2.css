@@ -9,7 +9,7 @@
 
     .txt_box{
         width: 335px;
-        margin: 31px auto 32px auto;
+        margin: 32px auto;
     }
 
     .txt_box_title{
@@ -46,6 +46,7 @@
         width: 375px;
         height: 375px;
         margin: auto;
+        margin-top: 47px;
         background: url(../img/main_content/4_img.svg);
         background-repeat: no-repeat;
         background-size: contain;

@@ -1,4 +1,4 @@
-/*@media (min-width: 375px) {
+@media (min-width: 375px) {
     .border_top{
         max-width: 335px;
         width: 100%;
@@ -35,7 +35,7 @@
 
     .people_img{
         width: 375px;
-        height: 534px;
+        height: 168px;
         margin: auto;
         background: url(../img/main_content/0_img.svg);
         background-repeat: no-repeat;
@@ -43,16 +43,16 @@
     }
 
     .sphere_img{
-        width: 335x;
-        height: 534px;
+        width: 375px;
+        height: 375px;
         margin: auto;
-        background: url(../img/main_content/1_img.svg);
+        background: url(../img/main_content/4_img.svg);
         background-repeat: no-repeat;
         background-size: contain;
     }
 
     .txt_with_img_box{
-        width: 1024px;
+        width: 375px;
         display: flex;
         justify-content: space-between;
         margin: auto;
@@ -61,20 +61,21 @@
     }
 
     .men_img{
-        width: 497px;
-        height: 664px;
+        width: 375px;
+        height: 502px;
         background: url(../img/main_content/2_img.svg);
         background-repeat: no-repeat;
         background-size: contain;
+        margin-bottom: 32px;
     }
 
     .column_1{
-        width: 457px;
-        margin-right: 40px;
+        width: 335px;
+        margin: auto;
     }
 
     .signature_box{
-        width: 415px;
+        width: 335px;
         height: 53px;
         display: flex;
         justify-content: space-between;
@@ -108,7 +109,7 @@
         background-repeat: no-repeat;
         background-size: contain;
     }
-}*/
+}
 @media (min-width: 1024px) {
     .border_top{
         max-width: 944px;
@@ -154,7 +155,7 @@
     }
 
     .sphere_img{
-        width: 1024x;
+        width: 1024px;
         height: 534px;
         margin: auto;
         background: url(../img/main_content/1_img.svg);

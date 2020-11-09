@@ -1,0 +1,116 @@
+.request_caption{
+    width: 1440px;
+    margin: 48px auto;
+}
+.request_caption > p{
+    width: 583px;
+    height: 84px;
+    font-family: Fahkwang;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.request_site_img{
+    width: 1440px;
+    height: 500px;
+    margin: auto;
+    background: url(../img/request/0_img.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.request_title_form{
+    font-family: Fahkwang;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 48px auto 32px auto;
+    width: 705px;
+    height: 72px;
+}
+
+.input_txt{
+    outline: none;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    display: block;
+    width: 705px;
+    height: 48px;
+    margin: 8px auto;
+    border: 1px solid #BBBBBB;
+    padding: 13px 20px;
+    color: #5F5F5F;
+}
+
+.input_txt:hover{
+    border: 1px solid #70AADF;
+}
+
+.input_txt:active{
+    border: 1px solid #1078D8;
+}
+
+.comments{
+    outline: none;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    display: block;
+    width: 705px;
+    height: 118px;
+    margin: 8px auto;
+    border: 1px solid #BBBBBB;
+    resize: none;
+    padding: 13px 20px;
+    color: #5F5F5F;
+}
+
+.comments:hover{
+    border: 1px solid #70AADF;
+}
+
+.comments:active{
+    border: 1px solid #1078D8;
+}
+
+.submit_form{
+    outline: none;
+    width: 332px;
+    height: 56px;
+    background: #1078D8;
+    border-radius: 160px;
+    border: none;
+    text-align: center;
+    font-family: Fahkwang;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px auto 128px auto;
+}
+.submit_form:hover{
+    background: #2295FF;
+}
+
+.submit_form:active{
+    background: #0060B8;
+}
+
+.submit_form_img{
+    background: url(../img/request/1_img.svg);
+    width: 16px;
+    height: 12px;
+    margin-right: 14px;
+}

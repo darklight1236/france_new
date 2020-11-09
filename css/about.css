@@ -1,3 +1,116 @@
+@media (min-width: 320px) {
+    .border_top{
+        max-width: 320px;
+        width: 100%;
+        height: 1px;
+        background: linear-gradient(90deg, #1078D8 0%, #72EBFC 100%);
+        margin: 3px auto 0 auto;
+    }
+
+    .txt_box{
+        width: 300px;
+        margin: 32px auto;
+    }
+
+    .txt_box_title{
+        font-family: Fahkwang;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 170%;
+        margin-bottom: 16px;
+    }
+
+    .txt_box_content{
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .txt_box_content > p{
+        margin-bottom: 16px;
+    }
+
+    .people_img{
+        width: 320px;
+        height: 143px;
+        margin: auto;
+        background: url(../img/main_content/0_img.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .sphere_img{
+        width: 320px;
+        height: 320px;
+        margin: auto;
+        margin-top: 47px;
+        background: url(../img/main_content/4_img.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .txt_with_img_box{
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .men_img{
+        width: 320px;
+        height: 428px;
+        background: url(../img/main_content/2_img.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 32px;
+    }
+
+    .column_1{
+        width: 300px;
+        margin: auto;
+    }
+
+    .signature_box{
+        width: 300px;
+        height: 53px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 71px;
+        align-items: center;
+    }
+
+    .decoding_title{
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 150%;
+        margin-bottom: 8px;
+    }
+
+    .decoding{
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .sign{
+        width: 170px;
+        height: 42px;
+        background: url(../img/main_content/3_img.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
 @media (min-width: 375px) {
     .border_top{
         max-width: 335px;

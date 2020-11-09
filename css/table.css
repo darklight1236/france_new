@@ -165,6 +165,8 @@
         display: block;
     }
 }
+
+
 .NavbarMob{
     display: none;
     position: fixed;
@@ -212,8 +214,27 @@
 }
 
 .Users th{
+    position: relative;
     text-align: left;
     font-weight: 100;
+}
+.Users th:after{
+    content: '';
+    background: url(../img/arrow/vector_right.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10px;
+    top: 17px;
+    right: 8px;
+    width: 10px;
+    max-width: 100%;
+    -webkit-object-fit: fill;
+    -moz-object-fit: fill;
+    object-fit: fill;
+    position: absolute;
+}
+.Users th:first-child:after,.Users th:last-child:after{
+    display: none;
 }
 .Users thead tr{
     background: #f3f3f3;

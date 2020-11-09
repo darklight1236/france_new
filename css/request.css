@@ -63,14 +63,12 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 130%;
-    display: block;
-    width: 705px;
-    height: 118px;
-    margin: 8px auto;
     border: 1px solid #BBBBBB;
     resize: none;
     padding: 13px 20px;
     color: #5F5F5F;
+    width: 705px;
+    height: 118px;
 }
 
 .comments:hover{
@@ -113,4 +111,72 @@
     width: 16px;
     height: 12px;
     margin-right: 14px;
+}
+
+.name::before{
+    /*display: none;*/
+    content: "Votre nom";
+    background: #FFFFFF;
+    padding: 0 10px;
+    position: absolute;
+    top: -8px;
+    left: 10px;    
+}
+
+.log::before{
+    /*display: none;*/
+    content: "Votre prénom";
+    background: #FFFFFF;
+    padding: 0 10px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+
+.email::before{
+    /*display: none;*/
+    content: "Votre courriel";
+    background: #FFFFFF;
+    padding: 0 10px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+
+.phone::before{
+    /*display: none;*/
+    content: "Votre numéro de téléphone";
+    background: #FFFFFF;
+    padding: 0 10px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+
+.label_comments::before{
+    /*display: none;*/
+    content: "Commentaires";
+    background: #FFFFFF;
+    padding: 0 10px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+
+form > label{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+    color: #5F5F5F;
+    position: relative;
+    display: block;
+    width: 705px;
+    height: 48px;
+    margin: 8px auto;
+}
+
+.label_comments{
+    height: 118px;
 }

@@ -32,6 +32,8 @@
     margin-right: 14px;
 }
 
+
+
 @media (min-width: 320px) {
     .request_caption{
         width: 300px;
@@ -93,6 +95,7 @@
 
     ._comments{
         height: 118px;
+        margin-bottom: 32px;
     }
 
     .comments{
@@ -185,6 +188,13 @@
     .submit_form{
         width: 300px;
     }
+
+    .captcha{
+        width: 215px;
+        height: 112px;
+        border: 1px solid #BBBBBB;
+        margin: auto;
+    }
 }
 @media (min-width: 375px) {
     .request_caption{
@@ -247,6 +257,7 @@
 
     ._comments{
         height: 118px;
+        margin-bottom: 32px;
     }
 
     .comments{
@@ -334,6 +345,13 @@
         width: 335px;
         height: 48px;
         margin: 8px auto;
+    }
+
+    .captcha{
+        width: 215px;
+        height: 112px;
+        border: 1px solid #BBBBBB;
+        margin: auto;
     }
 }
 @media (min-width: 1024px) {
@@ -397,6 +415,7 @@
 
     ._comments{
         height: 118px;
+        margin-bottom: 32px;
     }
 
     .comments{
@@ -485,8 +504,15 @@
         height: 48px;
         margin: 8px auto;
     }
+
+    .captcha{
+        width: 460px;
+        height: 48px;
+        border: 1px solid #BBBBBB;
+        margin: auto;
+    }
 }
-@media (min-width: 1440px) and (min-width: 1024px) {
+@media (min-width: 1440px) {
     .request_caption{
         width: 1440px;
         margin: 48px auto;
@@ -547,6 +573,7 @@
 
     ._comments{
         height: 118px;
+        margin-bottom: 32px;
     }
 
     .comments{
@@ -635,5 +662,13 @@
         height: 48px;
         margin: 8px auto;
     }
+
+    .captcha{
+        width: 460px;
+        height: 48px;
+        border: 1px solid #BBBBBB;
+        margin: auto;
+    }
 }
+
 

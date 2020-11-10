@@ -38,11 +38,11 @@
 
         <div class="request_title_form">Veuillez remplir le formulaire ci-dessous à la validation votre demande sera envoyée à notre service recrutement</div>
         <form>
-            <label class="name"><input class="input_txt" type="text" placeholder="Votre nom" id="name"></label>
-            <label class="log"><input class="input_txt" type="text" placeholder="Votre prénom" id="log"></label>
-            <label class="email"><input class="input_txt" type="text" placeholder="Votre courriel" id="email"></label>
-            <label class="phone"><input class="input_txt" type="text" placeholder="Votre numéro de téléphone" id="phone"></label>
-            <label class="label_comments"><textarea class="comments" placeholder="Commentaires" id="comments"></textarea></label>
+            <label><div id="d_name">Votre nom</div><input class="input_txt" type="text" placeholder="Votre nom" id="name" oninput="labelShow(this.id)"></label>
+            <label><div id="d_log">Votre prénom</div><input class="input_txt" type="text" placeholder="Votre prénom" id="log" oninput="labelShow(this.id)"></label>
+            <label><div id="d_email">Votre courriel</div><input class="input_txt" type="text" placeholder="Votre courriel" id="email" oninput="labelShow(this.id)"></label>
+            <label><div id="d_phone">Votre numéro de téléphone</div><input class="input_txt" type="text" placeholder="Votre numéro de téléphone" id="phone" oninput="labelShow(this.id)"></label>
+            <label class="_comments"><div id="d_comments">Commentaires</div><textarea class="comments" placeholder="Commentaires" id="comments" oninput="labelShow(this.id)"></textarea></label>
 
             <button class="submit_form" type="submit">
                 <div class="submit_form_img"></div>Envoyer ma demande
@@ -79,5 +79,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/app.js"></script>
 </body>
 </html>

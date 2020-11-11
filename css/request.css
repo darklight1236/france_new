@@ -32,9 +32,131 @@
     margin-right: 14px;
 }
 
+.request_caption > p{
+    font-family: Fahkwang;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 170%;
+}
 
+.request_site_img{
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
-@media (min-width: 320px) {
+.request_title_form{
+    font-family: Fahkwang;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 170%;
+}
+
+.input_txt{
+    outline: none;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    display: block;
+    margin: 8px auto;
+    border: 1px solid #BBBBBB;
+    padding: 13px 20px;
+    color: #5F5F5F;
+}
+
+.input_txt:hover{
+    border: 1px solid #70AADF;
+}
+
+.input_txt:active, .input_txt:focus{
+    border: 1px solid #1078D8;
+}
+
+.comments{
+    outline: none;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    border: 1px solid #BBBBBB;
+    resize: none;
+    color: #5F5F5F;
+}
+
+#d_name{
+    display: none;
+    content: "Votre nom";
+    background: #FFFFFF;
+    padding: 0 10px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+
+#d_log{
+    display: none;
+    content: "Votre prénom";
+    background: #FFFFFF;
+    padding: 0 10px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+
+#d_email{
+    display: none;
+    content: "Votre courriel";
+    background: #FFFFFF;
+    padding: 0 10px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+
+#d_phone{
+    display: none;
+    content: "Votre numéro de téléphone";
+    background: #FFFFFF;
+    padding: 0 10px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+
+#d_comments{
+    display: none;
+    content: "Commentaires";
+    background: #FFFFFF;
+    padding: 0 10px;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+
+form > label{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+    color: #5F5F5F;
+    position: relative;
+    display: block;
+    height: 48px;
+    margin: 8px auto;
+}
+
+.captcha{
+    border: 1px solid #BBBBBB;
+    margin: auto;
+}
+
+@media (min-width: 0px) {
     .request_caption{
         width: 300px;
         margin: 33px auto 24px auto;
@@ -42,55 +164,23 @@
     .request_caption > p{
         width: 300px;
         height: 64px;
-        font-family: Fahkwang;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 170%;
     }
 
     .request_site_img{
         width: 320px;
         height: 480px;
-        margin: auto;
         background: url(../img/request/3_img.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
     }
 
     .request_title_form{
-        font-family: Fahkwang;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 170%;
         margin: 24px auto 32px auto;
         width: 300px;
         height: 136px;
     }
 
     .input_txt{
-        outline: none;
-        font-family: Noto Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 130%;
-        display: block;
         width: 300px;
         height: 48px;
-        margin: 8px auto;
-        border: 1px solid #BBBBBB;
-        padding: 13px 20px;
-        color: #5F5F5F;
-    }
-
-    .input_txt:hover{
-        border: 1px solid #70AADF;
-    }
-
-    .input_txt:active, .input_txt:focus{
-        border: 1px solid #1078D8;
     }
 
     ._comments{
@@ -99,90 +189,13 @@
     }
 
     .comments{
-        outline: none;
-        font-family: Noto Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 130%;
-        border: 1px solid #BBBBBB;
-        resize: none;
         padding: 13px 20px;
-        color: #5F5F5F;
         width: 300px;
         height: 118px;
     }
 
-    .comments:hover{
-        border: 1px solid #70AADF;
-    }
-
-    .comments:active, .comments:focus{
-        border: 1px solid #1078D8;
-    }
-
-    #d_name{
-        display: none;
-        content: "Votre nom";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_log{
-        display: none;
-        content: "Votre prénom";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_email{
-        display: none;
-        content: "Votre courriel";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_phone{
-        display: none;
-        content: "Votre numéro de téléphone";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_comments{
-        display: none;
-        content: "Commentaires";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
     form > label{
-        font-family: Noto Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 130%;
-        color: #5F5F5F;
-        position: relative;
-        display: block;
         width: 300px;
-        height: 48px;
-        margin: 8px auto;
     }
 
     .submit_form{
@@ -192,8 +205,6 @@
     .captcha{
         width: 215px;
         height: 112px;
-        border: 1px solid #BBBBBB;
-        margin: auto;
     }
 }
 @media (min-width: 375px) {
@@ -204,55 +215,23 @@
     .request_caption > p{
         width: 335px;
         height: 64px;
-        font-family: Fahkwang;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 170%;
     }
 
     .request_site_img{
         width: 375px;
         height: 480px;
-        margin: auto;
         background: url(../img/request/3_img.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
     }
 
     .request_title_form{
-        font-family: Fahkwang;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 170%;
         margin: 24px auto 32px auto;
         width: 335px;
         height: 136px;
     }
 
     .input_txt{
-        outline: none;
-        font-family: Noto Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 130%;
-        display: block;
         width: 335px;
         height: 48px;
-        margin: 8px auto;
-        border: 1px solid #BBBBBB;
-        padding: 13px 20px;
-        color: #5F5F5F;
-    }
-
-    .input_txt:hover{
-        border: 1px solid #70AADF;
-    }
-
-    .input_txt:active, .input_txt:focus{
-        border: 1px solid #1078D8;
     }
 
     ._comments{
@@ -261,87 +240,12 @@
     }
 
     .comments{
-        outline: none;
-        font-family: Noto Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 130%;
-        border: 1px solid #BBBBBB;
-        resize: none;
         padding: 13px 20px;
-        color: #5F5F5F;
         width: 335px;
         height: 118px;
     }
 
-    .comments:hover{
-        border: 1px solid #70AADF;
-    }
-
-    .comments:active, .comments:focus{
-        border: 1px solid #1078D8;
-    }
-
-    #d_name{
-        display: none;
-        content: "Votre nom";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_log{
-        display: none;
-        content: "Votre prénom";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_email{
-        display: none;
-        content: "Votre courriel";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_phone{
-        display: none;
-        content: "Votre numéro de téléphone";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_comments{
-        display: none;
-        content: "Commentaires";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
     form > label{
-        font-family: Noto Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 130%;
-        color: #5F5F5F;
-        position: relative;
-        display: block;
         width: 335px;
         height: 48px;
         margin: 8px auto;
@@ -362,9 +266,6 @@
     .request_caption > p{
         width: 583px;
         height: 84px;
-        font-family: Fahkwang;
-        font-style: normal;
-        font-weight: normal;
         font-size: 32px;
         line-height: 130%;
     }
@@ -372,16 +273,10 @@
     .request_site_img{
         width: 1024px;
         height: 500px;
-        margin: auto;
         background: url(../img/request/2_img.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
     }
 
     .request_title_form{
-        font-family: Fahkwang;
-        font-style: normal;
-        font-weight: normal;
         font-size: 24px;
         line-height: 150%;
         margin: 48px auto 32px auto;
@@ -390,116 +285,22 @@
     }
 
     .input_txt{
-        outline: none;
-        font-family: Noto Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 130%;
-        display: block;
         width: 705px;
         height: 48px;
-        margin: 8px auto;
-        border: 1px solid #BBBBBB;
-        padding: 13px 20px;
-        color: #5F5F5F;
     }
-
-    .input_txt:hover{
-        border: 1px solid #70AADF;
-    }
-
-    .input_txt:active, .input_txt:focus{
-        border: 1px solid #1078D8;
-    }
-
     ._comments{
         height: 118px;
         margin-bottom: 32px;
     }
 
     .comments{
-        outline: none;
-        font-family: Noto Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 130%;
-        border: 1px solid #BBBBBB;
-        resize: none;
         padding: 13px 20px;
-        color: #5F5F5F;
         width: 705px;
         height: 118px;
     }
 
-    .comments:hover{
-        border: 1px solid #70AADF;
-    }
-
-    .comments:active, .comments:focus{
-        border: 1px solid #1078D8;
-    }
-
-    #d_name{
-        display: none;
-        content: "Votre nom";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_log{
-        display: none;
-        content: "Votre prénom";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_email{
-        display: none;
-        content: "Votre courriel";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_phone{
-        display: none;
-        content: "Votre numéro de téléphone";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_comments{
-        display: none;
-        content: "Commentaires";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
 
     form > label{
-        font-family: Noto Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 130%;
-        color: #5F5F5F;
-        position: relative;
-        display: block;
         width: 705px;
         height: 48px;
         margin: 8px auto;
@@ -520,9 +321,6 @@
     .request_caption > p{
         width: 583px;
         height: 84px;
-        font-family: Fahkwang;
-        font-style: normal;
-        font-weight: normal;
         font-size: 32px;
         line-height: 130%;
     }
@@ -530,16 +328,10 @@
     .request_site_img{
         width: 1440px;
         height: 500px;
-        margin: auto;
         background: url(../img/request/0_img.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
     }
 
     .request_title_form{
-        font-family: Fahkwang;
-        font-style: normal;
-        font-weight: normal;
         font-size: 24px;
         line-height: 150%;
         margin: 48px auto 32px auto;
@@ -548,27 +340,8 @@
     }
 
     .input_txt{
-        outline: none;
-        font-family: Noto Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 130%;
-        display: block;
         width: 705px;
         height: 48px;
-        margin: 8px auto;
-        border: 1px solid #BBBBBB;
-        padding: 13px 20px;
-        color: #5F5F5F;
-    }
-
-    .input_txt:hover{
-        border: 1px solid #70AADF;
-    }
-
-    .input_txt:active, .input_txt:focus{
-        border: 1px solid #1078D8;
     }
 
     ._comments{
@@ -577,87 +350,12 @@
     }
 
     .comments{
-        outline: none;
-        font-family: Noto Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 130%;
-        border: 1px solid #BBBBBB;
-        resize: none;
         padding: 13px 20px;
-        color: #5F5F5F;
         width: 705px;
         height: 118px;
     }
 
-    .comments:hover{
-        border: 1px solid #70AADF;
-    }
-
-    .comments:active, .comments:focus{
-        border: 1px solid #1078D8;
-    }
-
-    #d_name{
-        display: none;
-        content: "Votre nom";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_log{
-        display: none;
-        content: "Votre prénom";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_email{
-        display: none;
-        content: "Votre courriel";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_phone{
-        display: none;
-        content: "Votre numéro de téléphone";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
-    #d_comments{
-        display: none;
-        content: "Commentaires";
-        background: #FFFFFF;
-        padding: 0 10px;
-        position: absolute;
-        top: -8px;
-        left: 10px;
-    }
-
     form > label{
-        font-family: Noto Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 130%;
-        color: #5F5F5F;
-        position: relative;
-        display: block;
         width: 705px;
         height: 48px;
         margin: 8px auto;
@@ -666,8 +364,6 @@
     .captcha{
         width: 460px;
         height: 48px;
-        border: 1px solid #BBBBBB;
-        margin: auto;
     }
 }
 

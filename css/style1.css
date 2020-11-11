@@ -125,6 +125,7 @@
     justify-content: flex-start;
     align-items: center;
     margin-top: 37px;
+    overflow-x: auto;
 }
 
 .filter_voyants_item{
@@ -307,7 +308,6 @@
 
 /* PERSON CONTENT */
 .people_content{
-    height: 1236px;
     width: 100%;
     margin-top: 80px;
     display: flex;

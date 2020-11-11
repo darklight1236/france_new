@@ -80,7 +80,7 @@
 }
 
 /* ................................................. */
-.controls{
+.controls_carousel{
     width: 142px;
     height: 283px;
     display: flex;
@@ -157,7 +157,8 @@
 
 .select_voyants_for_ability{
     margin-top: 78px;
-    height: 390px;
+    min-height: 390px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -165,7 +166,7 @@
 
 .information_for_search_txt{
     width: 705px;
-    height: 216px;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -315,19 +316,83 @@
 }
 .person_block{
     width: 339px;
-    height: 285px;
+    min-height: 285px;
+    height: auto;
     /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
+    
 }
 .p_block_up {
     width: 100%;
-    height: 225px;
+    min-height: 225px;
+    height: auto;
     background: #f3f3f3;
     padding: 30px 31px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
+
+.music{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F3F3F3;
+    border-radius: 20px;
+    z-index: 9;
+    margin-left: 14px;
+    margin-top: 20px;
+}
+.loader{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(16, 120, 216, 0.6);
+    border-radius: 20px;
+    border-left-color: #1078D8;
+    animation: loader 1.3s linear infinite;
+    opacity: 0;
+}
+
+@keyframes loader{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.play{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../img/music/play.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 26px;
+    z-index: 10;
+}
+.stop{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../img/music/stop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 26px;
+    z-index: 10;
+}
+
+
+
 .p_block_down {
     width: 100%;
     height: 60px;
@@ -347,6 +412,7 @@
     height: auto;
     margin-top: 16px;
     display: flex;
+    flex-wrap: wrap;
 }
 .p_b__name{
     font-family: Fahkwang;
@@ -357,6 +423,7 @@
 }
 .p_b_for_img{
     margin-right: 16px;
+    user-select: none;
 }
 .p_b__view{
     font-family: Fahkwang;
@@ -424,7 +491,7 @@
 .status_blue{
     color: #1A4C97;
 }
-.person_ability{
+.person_ability {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -441,6 +508,7 @@
     border-radius: 320px;
     margin-right: 8px;
     padding: 8px 14px;
+    margin-bottom: 10px;
 }
 .person_ability > img{
     margin-right: 4px;

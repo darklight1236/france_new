@@ -32,3 +32,157 @@ a{
     max-width: 1440px;
     width: 1440px;
 }
+
+@media screen and (max-width: 1450px){
+    .container{
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .person_block{
+        width: 33%;
+        margin-bottom: 8px;
+    }
+    .p_block_up {
+        width: 100%;
+        min-height: 225px;
+        height: auto;
+        background: #f3f3f3;
+        padding: 30px 31px 15px 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .p_block_down_left{
+        width: 80%;
+        max-width: 80%;
+        height: 60px;
+    }
+    .p_block_down_right {
+        width: 35%;
+        max-width: 35%;
+        height: 60px;
+    }
+}
+@media screen and (max-width: 1420px){
+    .controls_carousel{
+        display: none;
+    }
+}
+@media screen and (max-width: 1150px){
+    .person_block{
+        width: 49%;
+        margin-bottom: 8px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .select_voyants_for_ability{
+        flex-direction: column;
+    }
+    .select_voyants {
+        width: 100%;
+    }
+    .information_for_search_txt{
+        width: 100%;
+    }
+    .select_voyants_item{
+        margin-bottom: 10px;
+    }
+    .select_voyants_for_ability{
+        margin-top: 34px;
+    }
+    .information_for_search_txt{
+        margin-bottom: 24px;
+    }
+    .people_content{
+        margin-top: 48px;
+    }
+}
+@media screen and (max-width: 900px){
+    .first_block_carousel{
+        background: url(../img/carousel/carousel_1mini.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 746px){
+    .person_block{
+        width: 100%;
+        margin-bottom: 8px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width: 575px){
+    .person_block{
+        width: 100%;
+        margin-bottom: 8px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .img_for_carousel{
+        padding-left: 0;
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text_and_btn_for_carousel{
+        justify-content: center;
+    }
+    .first_block_carousel{
+        background: url(../img/carousel/carousel_1mini.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 32px;
+    }
+    .carousel__txt_and_btn{
+        width: 100%;
+        margin: 0 2rem;
+    }
+    .carousel__txt_title{
+        width: 100%;
+        height: auto;
+    }
+    .carousel__txt_subtitle{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 375px){
+    .p_block_up_r1{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .phone_number {
+        height: 100%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    .p_block_down_left {
+        width: 60%;
+        max-width: 80%;
+        height: 60px;
+    }
+    .p_block_down_right{
+        background-size: cover;
+    }
+    .icon_and_description_sel_voy{
+        height: 100%;
+    }
+    .icon_and_description_sel_voy > p {
+        height: 100%;
+        max-width: 90px;
+        flex-wrap: wrap;
+    }
+}

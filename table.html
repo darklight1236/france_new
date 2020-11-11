@@ -24,7 +24,9 @@
 
 
 
-    <div class="border_top"></div>
+    <div class="border_content">
+        <div class="border_top"></div>
+    </div>
 
     <section class="body_content">
         <div class="container" style="margin-top: 48px;">
@@ -44,38 +46,39 @@
                     <p>Indisponible</p>
                 </div>
             </div>
-            <table class="Users">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>00h</th>
-                        <th>01h</th>
-                        <th>02h</th>
-                        <th>03h</th>
-                        <th>04h</th>
-                        <th>05h</th>
-                        <th>06h</th>
-                        <th>07h</th>
-                        <th>08h</th>
-                        <th>09h</th>
-                        <th>10h</th>
-                        <th>11h</th>
-                        <th>12h</th>
-                        <th>13h</th>
-                        <th>14h</th>
-                        <th>15h</th>
-                        <th>16h</th>
-                        <th>17h</th>
-                        <th>17h</th>
-                        <th>18h</th>
-                        <th>19h</th>
-                        <th>20h</th>
-                        <th>21h</th>
-                        <th>22h</th>
-                        <th>23h</th>
-                    </tr>
-                </thead>
-                <tbody>
+            <div style="width: 100%;overflow-x: auto;">
+                <table class="Users">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>00h</th>
+                            <th>01h</th>
+                            <th>02h</th>
+                            <th>03h</th>
+                            <th>04h</th>
+                            <th>05h</th>
+                            <th>06h</th>
+                            <th>07h</th>
+                            <th>08h</th>
+                            <th>09h</th>
+                            <th>10h</th>
+                            <th>11h</th>
+                            <th>12h</th>
+                            <th>13h</th>
+                            <th>14h</th>
+                            <th>15h</th>
+                            <th>16h</th>
+                            <th>17h</th>
+                            <th>17h</th>
+                            <th>18h</th>
+                            <th>19h</th>
+                            <th>20h</th>
+                            <th>21h</th>
+                            <th>22h</th>
+                            <th>23h</th>
+                        </tr>
+                    </thead>
+                    <tbody>
                     <tr>
                         <td>Alexandra</td>
                         <td>
@@ -1492,9 +1495,9 @@
                             </div>
                         </td>
                     </tr>						
-                </tbody>
-            </table>
-
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
 
@@ -1526,12 +1529,15 @@
             <div class="container_ft">
                 <div class="foot_last_block">
                     <p class="ft_last_item">Pour préserver la vie privée de nos praticiens, toutes les photos sont des photos d'illustration</p>
-                    <a href="#" class="ft_last_item ft_last_blue">Informations Légales</a>
-                    <a href="#" class="ft_last_item ft_last_blue">Politique de confidentialité</a>
+                    <div style="margin-top: 3px;">
+                        <a href="#" class="ft_last_item ft_last_blue">Informations Légales</a>
+                        <a href="#" class="ft_last_item ft_last_blue">Politique de confidentialité</a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
+   
     <script src="js/app.js"></script>
 </body>
 </html>

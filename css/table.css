@@ -213,10 +213,11 @@
 .ActiveNavbar:before {
     content: ' - ';
 }
-.Users{
+.Users {
     font-family: 'Noto Sans';
     width: 100%;
-    min-width: 1300px;
+    max-width: 1440px;
+    min-width: 1140px;
     border-collapse: collapse;
 }
 
@@ -232,7 +233,7 @@
     background-repeat: no-repeat;
     height: 10px;
     top: 17px;
-    right: 6px;
+    left: 75%;
     width: 10px;
     max-width: 100%;
     -webkit-object-fit: fill;
@@ -318,4 +319,25 @@
 }
 .img__photo{
     position: relative;
+}
+@media screen and (max-width: 1480px) {
+	.container{
+		width: 1140px !important;
+	}
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 100% !important;
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 860px) {
+	.MobuleMenu{
+		display: block;
+	}
+	.ul_nav{
+		display: none;
+	}
 }

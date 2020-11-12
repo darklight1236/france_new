@@ -41,10 +41,10 @@
 }
 .txt_with_img_box{
     display: flex;
-    justify-content: space-between;
     margin: auto;
     flex-wrap: wrap;
     flex-direction: row;
+    width: 100%;
 }
 .men_img{
     background: url(../img/main_content/2_img.svg);
@@ -94,8 +94,9 @@
 
 @media (min-width: 320px) {
     .txt_box{
-        width: 300px;
+        width: 100%;
         margin: 32px auto;
+        padding: 0 40px;
     }
     .txt_box_title{       
         font-size: 20px;
@@ -116,7 +117,8 @@
         background-size: cover;
     }*/
     .txt_with_img_box{
-        width: 320px;
+        justify-content: center;
+        /*width: 320px;*/
     }
     .men_img{
         width: 320px;
@@ -124,17 +126,19 @@
         margin-bottom: 32px;
     }
     .column_1{
-        width: 300px;
+        /*width: 300px;*/
+        width: 100%;
         margin: auto;
+        padding: 0 40px;
     }
     .signature_box{
         width: 300px;
     }
 }
 @media (min-width: 375px) {
-    .txt_box{
+    /*.txt_box{
         width: 335px;
-    }
+    }*/
     /*.people_img{
         width: 375px;
         height: 168px;
@@ -143,16 +147,16 @@
         width: 375px;
         height: 375px;
     }*/
-    .txt_with_img_box{
+    /*.txt_with_img_box{
         width: 375px;
-    }
+    }*/
     .men_img{
         width: 375px;
         height: 502px;
         margin-bottom: 32px;
     }
     .column_1{
-        width: 335px;
+        /*width: 335px;*/
     }
     .signature_box{
         width: 335px;
@@ -170,6 +174,7 @@
     .txt_box{
         width: 944px;
         margin: 48px auto 64px auto;
+        padding: 0;
     }
     .txt_box_title{
         font-size: 32px;
@@ -186,17 +191,18 @@
         margin-top: 0;
         background: url(../img/main_content/1_img.svg);
     }*/
-    .txt_with_img_box{
+    /*.txt_with_img_box{
         width: 1024px;
-    }
+        justify-content: space-between;
+    }*/
     .men_img{
         width: 497px;
         height: 664px;
         margin-bottom: 0;
     }
     .column_1{
-        width: 457px;
-        margin-right: 40px;
+       /* width: 457px;*/
+        width: 50%;
     }
     .signature_box{
         width: 415px;
@@ -232,10 +238,10 @@
     .men_img{
         width: 460px;
         height: 615px;
-    }
+    }/*
     .column_1{
         width: 583px;
-    }
+    }*/
 }
 @media screen and (min-width:1201px) and (max-width: 1480px) {
 	.border_content{

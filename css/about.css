@@ -21,7 +21,7 @@
 .txt_box_content > p{
     margin-bottom: 16px;
 }
-.people_img{
+/*.people_img{
     min-height: 543px;
     background: url(../img/main_content/0_img.svg);
     margin: auto;
@@ -32,6 +32,12 @@
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
+}*/
+.view_small{
+    display: block;
+}
+.view_big{
+    display: none;
 }
 .txt_with_img_box{
     display: flex;
@@ -96,7 +102,7 @@
         line-height: 170%;
         margin-bottom: 16px;
     }
-    .people_img{
+    /*.people_img{
         width: 320px;
         height: 143px;
         background-size: contain;
@@ -108,7 +114,7 @@
         background: url(../img/main_content/4_img.svg);
         background-repeat: no-repeat;
         background-size: cover;
-    }
+    }*/
     .txt_with_img_box{
         width: 320px;
     }
@@ -129,14 +135,14 @@
     .txt_box{
         width: 335px;
     }
-    .people_img{
+    /*.people_img{
         width: 375px;
         height: 168px;
     }
     .sphere_img{
         width: 375px;
         height: 375px;
-    }
+    }*/
     .txt_with_img_box{
         width: 375px;
     }
@@ -152,6 +158,14 @@
         width: 335px;
     }
 }
+@media (min-width: 650px){
+    .view_small{
+        display: none;
+    }
+    .view_big{
+        display: block;
+    }
+}
 @media (min-width: 1024px) {
     .txt_box{
         width: 944px;
@@ -162,7 +176,7 @@
         line-height: 130%;
         margin-bottom: 32px;
     }
-    .people_img{
+    /*.people_img{
         width: 1024px;
         height: 543px;
     }
@@ -171,7 +185,7 @@
         height: 534px;
         margin-top: 0;
         background: url(../img/main_content/1_img.svg);
-    }
+    }*/
     .txt_with_img_box{
         width: 1024px;
     }
@@ -189,20 +203,20 @@
     }
 }
 @media screen and (max-width: 1200px){
-    .people_img{
+    /*.people_img{
         max-width: 1140px;
         width: 100%;
     }
     .sphere_img{
         max-width: 1140px;
         width: 100%;
-    }
+    }*/
 }
 @media (min-width: 1440px) {
     .txt_box{
         width: 950px;
     }
-    .people_img{
+    /*.people_img{
         width: 1400px;
         max-width: 1400px;
     }
@@ -211,7 +225,7 @@
         max-width: 1400px;
         background-repeat: no-repeat;
         background-size: cover;
-    }
+    }*/
     .txt_with_img_box{
         width: 1195px;
     }

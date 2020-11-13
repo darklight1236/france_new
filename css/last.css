@@ -215,11 +215,20 @@
     color: #888888;
 }
 
+.comment_user{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+}
+
 .back_img{
     height: 48px;
     width: 48px;
     position: relative;
-    background: #F3F3F3;
+    background: #550a0a;
     border-radius: 50%;
 }
 .back_img >img{

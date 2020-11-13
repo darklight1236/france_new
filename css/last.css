@@ -2,7 +2,6 @@
     width: 100%;
     min-height: 613px;
     height: auto;
-    border: 1px solid black;
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
@@ -27,7 +26,6 @@
 .f_p_b__right {
     height: inherit;
     width: 583px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
 }
@@ -111,14 +109,110 @@
     width: 100%;
     height: 60px;
     background: #F9F9F9;
+    border-top: 1px solid #ECECEC;
+    display: flex;
+    justify-content: space-between;
 }
-
-.comment_user{
+.row__phone_and_price_left {
+    height: 100%;
+    width: 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 13px;
+}
+.row__phone_and_price_left > p:nth-of-type(1){
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+.row__phone_and_price_left > p:nth-of-type(2){
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+}
+.row__phone_and_price_right {
+    height: 100%;
+    width: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/person_block/bg_price.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1078D8;
+}
+.subrow__phone_price{
+    height: 21px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: Noto Sans;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 150%;
+    margin-top: 8px;
+    color: #888888;
+}
+.person_block_quote{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 2.5rem;
+    padding-right: 4rem;
+    background: #F9F9F9;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+    margin-top: 32px;
+    position: relative;
+}
+.person_block_quote > p{
+    margin-bottom: 10px;
+}
+.person_block_quote > img {
+    position: absolute;
+    width: 26,56px;
+    height: 22,07px;
+}
+.person_block_quote > img:nth-of-type(1){
+    top: 40px;
+    left: 40px;
+}
+.person_block_quote > img:nth-of-type(2){
+    bottom: 53.93px;
+    right: 60.44px;
+}
+.single_first_block_comment{
+    width: 100%;
+    height: 21px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #888888;
 }
 
 .back_img{

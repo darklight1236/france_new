@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>France</title>
 </head>
 <body>
@@ -32,11 +33,16 @@
 
 
 
-    <section>
+    <section class="box">
+        <div class="container">
             <div class="request_caption">
                 <p>Vous voulez postuler pour devenir consultant chez nous</p>
             </div>
-            <div class="request_site_img"></div>
+
+            <div>
+                <img src="img/request/3_img.jpg" class="view_small" width="100%">
+                <img src="img/request/0_img.jpg" class="view_big" width="100%">
+            </div>
 
             <div class="request_title_form">Veuillez remplir le formulaire ci-dessous à la validation votre demande sera envoyée à notre service recrutement</div>
             <form>
@@ -46,12 +52,18 @@
                 <label><div id="d_phone">Votre numéro de téléphone</div><input class="input_txt" type="text" placeholder="Votre numéro de téléphone" id="phone" oninput="labelShow(this.id)"></label>
                 <label class="_comments"><div id="d_comments">Commentaires</div><textarea class="comments" placeholder="Commentaires" id="comments" oninput="labelShow(this.id)"></textarea></label>
 
-                <div class="captcha"></div>
+                <div class="captcha">
+                    <form action="?" method="POST">
+                        <div class="g-recaptcha" data-sitekey="6Le8kOIZAAAAAC-7KMNyplEKZ_WG_gvTmz5F8vUZ"></div>
+                        <br/>
+                      </form>
+                </div>
 
                 <button class="submit_form" type="submit">
                     <div class="submit_form_img"></div>Envoyer ma demande
                 </button>
             </form>
+        </div>
     </section>
 
 

@@ -21,6 +21,20 @@
 .txt_box_content > p{
     margin-bottom: 16px;
 }
+.btn_play_img{
+    width: 10%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0.5;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 0.2s;
+}
+.btn_play_img:hover{
+    width: 11%;
+}
 /*.people_img{
     min-height: 543px;
     background: url(../img/main_content/0_img.svg);
@@ -155,9 +169,9 @@
         height: 502px;
         margin-bottom: 32px;
     }
-    .column_1{
-        /*width: 335px;*/
-    }
+    /*.column_1{
+        width: 335px;
+    }*/
     .signature_box{
         width: 335px;
     }

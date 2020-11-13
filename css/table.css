@@ -75,6 +75,7 @@
     height: 20px;
     width: 20px;
     margin-right: 10px;
+    border: 1px solid transparent;
 }
 .lic{
     display: flex;
@@ -87,9 +88,11 @@
 } 
 .BackGreen{
     background: #5ab13c;
+    border-color: #419225;
 }
 .BackGrey{
     background: #f3f3f3;
+    border-color: #dadada;
 }
 @media screen and (min-width: 1850px) {
     .Content{

@@ -1,0 +1,257 @@
+.single_first_block{
+    width: 100%;
+    min-height: 613px;
+    height: auto;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.f_p_b__left {
+    height: inherit;
+    width: 460px;
+    background: url(../img/person_block/person_photo1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+.sound_person{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f_p_b__right {
+    height: inherit;
+    width: 583px;
+    display: flex;
+    flex-direction: column;
+}
+.p_b__name_status_stars{
+    width: 100%;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.p_b__name_status_stars_left {
+    height: inherit;
+    width: 228px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p_b__name_status_stars_right{
+    height: inherit;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.person_block__name{
+    width: 118px;
+    height: 42px;
+    font-family: Fahkwang;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 130%;
+    margin-right: 16px;
+}
+.person_block__status{
+    width: 94px;
+    height: 28px;
+    border-radius: 50px;
+    background: #5AB13C;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.person_block_stars{
+    width: 127px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.person_block_cout_com{
+    width: 100%;
+    height: 21px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #1078D8;
+}
+.row_abiliti{
+    width: 100%;
+    height: 32px;
+    display: flex;
+    margin-bottom: 24px;
+}
+.row_abiliti > .person_ability{
+    background: #F3F3F3;
+}
+.row__phone_and_price{
+    width: 100%;
+    height: 60px;
+    background: #F9F9F9;
+    border-top: 1px solid #ECECEC;
+    display: flex;
+    justify-content: space-between;
+}
+.row__phone_and_price_left {
+    height: 100%;
+    width: 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 13px;
+}
+.row__phone_and_price_left > p:nth-of-type(1){
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+.row__phone_and_price_left > p:nth-of-type(2){
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+}
+.row__phone_and_price_right {
+    height: 100%;
+    width: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/person_block/bg_price.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1078D8;
+}
+.subrow__phone_price{
+    height: 21px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 8px;
+    color: #888888;
+}
+.person_block_quote{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 2.5rem;
+    padding-right: 4rem;
+    background: #F9F9F9;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+    margin-top: 32px;
+    position: relative;
+}
+.person_block_quote > p{
+    margin-bottom: 10px;
+}
+.person_block_quote > img {
+    position: absolute;
+    width: 26,56px;
+    height: 22,07px;
+}
+.person_block_quote > img:nth-of-type(1){
+    top: 40px;
+    left: 40px;
+}
+.person_block_quote > img:nth-of-type(2){
+    bottom: 53.93px;
+    right: 60.44px;
+}
+.single_first_block_comment{
+    width: 100%;
+    height: 21px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #888888;
+}
+
+.comment_user{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+}
+
+.back_img{
+    height: 48px;
+    width: 48px;
+    position: relative;
+    background: #550a0a;
+    border-radius: 50%;
+}
+.back_img >img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 1115px){
+    .single_first_block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .f_p_b__left{
+        min-height: 500px;
+        background-size: cover;
+    }
+    .f_p_b__right{
+        background: #F9F9F9;
+        margin-top: 28px;
+    }
+    .row__phone_and_price{
+        border: none;
+    }
+}

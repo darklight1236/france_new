@@ -88,7 +88,6 @@ input[type="checkbox"]:not(:checked)
     position: absolute;
     left: -9999px;
 }
-
 input[type="checkbox"]:checked + label, 
 input[type="checkbox"]:not(:checked) + label {
     display: inline-block;
@@ -108,17 +107,17 @@ input[type="checkbox"]:not(:checked) + label:before {
     border: 1px solid #1078D8;
     background: #ffffff;
 }
-input[type="checkbox"]:checked + label:before:hover, 
-input[type="checkbox"]:not(:checked) + label:before:hover{
+input[type="checkbox"]:checked + label:hover::before, 
+input[type="checkbox"]:not(:checked) + label:hover::before{
     border-color: #1078D8;
     border-width: 2px;
+    margin-top: -1px;
+    margin-left: -1px;
 }
-input[type="checkbox"]:checked + label:before:active, 
-input[type="checkbox"]:not(:checked) + label:before:active{
+input[type="checkbox"]:checked + label:active::before, 
+input[type="checkbox"]:not(:checked) + label:active::before{
     background: #1078D8;
 }
-
-
 input[type="checkbox"]:checked + label:before, 
 input[type="checkbox"]:not(:checked) + label:before {
     border-radius: 0px;
@@ -128,7 +127,6 @@ input[type="checkbox"]:not(:checked) + label:after {
     content: "";
     position: absolute;
 }
-
 input[type="checkbox"]:checked + label:after, 
 input[type="checkbox"]:not(:checked) + label:after {
     left: 3px;

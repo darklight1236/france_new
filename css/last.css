@@ -237,6 +237,45 @@
     left:50%;
     transform: translate(-50%,-50%);
 }
+.title_comm{
+    margin-bottom: 32px;
+}
+.comment_user{
+    margin-bottom: 48px;
+    width: 100%;
+}
+.comm_left{
+    width: 188px;
+    min-height: 110px;
+    height: auto;
+    background: #fff;
+    position: relative;
+}
+.comm__name{
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.trio_comm{
+    border: 20px solid transparent;
+    border-top: 20px solid #F9F9F9;
+    border-right: 20px solid #F9F9F9;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.comm_right{
+    width: 100%;
+    max-width: 100%;
+    min-height: 110px;
+    height: auto;
+    background: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px 40px;
+}
+
+
 
 @media screen and (max-width: 1115px){
     .single_first_block{
@@ -253,5 +292,31 @@
     }
     .row__phone_and_price{
         border: none;
+    }
+}
+@media screen and (max-width: 465px){
+    .comment_user{
+        display: flex;
+        flex-direction: column;
+        background: #f9f9f9;
+    }
+    .trio_comm{
+        display: none;
+    }
+    .comm_left{
+        display: flex;
+        align-items: center;
+        min-height: auto;
+        background: #f9f9f9;
+        padding-left: 20px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .back_img{
+        background: #fff;
+        margin-right: 16px;
+    }
+    .comm_right{
+        padding: 20px 20px 30px 20px;
     }
 }

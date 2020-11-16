@@ -292,7 +292,11 @@
     .f_p_b__right{
         width: inherit;
     }
-
+    .f_p_b__left{
+        min-width: auto;
+        width: 100%;
+        background-size: cover;
+    }
     .p_b__name_status_stars{
         flex-direction: column;
         align-items: center;
@@ -306,6 +310,30 @@
     }
     .subrow__phone_price{
         flex-direction: column;
+    }
+    .row__phone_and_price {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .subrow__phone_price{
+        height: auto;
+        margin-top: 0;
+    }
+    .row__phone_and_price_left{
+        margin-bottom: 10px;
+    }
+    .row__phone_and_price_right{
+        width: 100%;
+        max-width: 257px;
+        min-height: 65px;
+        height: 65px;
+        padding-left: 40px;
+        padding-right: 4px;
+        background: url(../img/person_block/bg_price2.svg);
+        background-size: cover;
+        margin-bottom: 16px;
     }
     .person_block_quote{
         padding-left: 1rem;

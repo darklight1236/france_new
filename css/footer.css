@@ -111,3 +111,8 @@
         justify-content: center;
     }
 }
+@media screen and (max-width: 490px){
+    .container_ft{
+        margin: 0 1rem;
+    }
+}

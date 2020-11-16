@@ -344,3 +344,8 @@
 		display: none;
 	}
 }
+@media screen and (max-width: 490px) {
+    .container{ 
+        padding: 0 1rem;
+    }
+}

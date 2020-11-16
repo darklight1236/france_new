@@ -32,6 +32,10 @@
 .nav_link:hover{
     color: #1078D8;
 }
+.MobuleMenu{
+	display: none;
+	cursor: pointer;
+}
 @media screen and (max-width: 1480px) {
 	.HeaderNavBlock{
 		width: 1140px;
@@ -51,4 +55,9 @@
 	.ul_nav{
 		display: none;
 	}
+}
+@media screen and (max-width: 490px){
+    .HeaderNavBlock{
+        margin: 0 1rem;
+    }
 }

@@ -121,12 +121,7 @@
         display: none !important;
     }
 }
-@media screen and (min-width: 650px) and (max-width: 1050px) {
-    .Content{
-        width: 100%;
-        padding: 0 15px;
-        box-sizing: border-box;
-    }
+@media screen and (min-width: 850px) {
     .NavbarMob{
         display: none !important;
     }
@@ -193,12 +188,6 @@
     text-decoration: none;
     color: white;
     font-size: 25px;
-}
-.NavbarMob .CloseNavbar{
-    height: 100%;
-    max-width: 100%;
-    width: 30px;
-    float: right;
 }
 .NavMenu{
     display: grid;

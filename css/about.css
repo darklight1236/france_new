@@ -61,7 +61,7 @@
     width: 100%;
 }
 .men_img{
-    background: url(../img/main_content/2_img.svg);
+    background: url(../img/main_content/3_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -92,7 +92,7 @@
 .sign{
     width: 170px;
     height: 42px;
-    background: url(../img/main_content/3_img.svg);
+    background: url(../img/main_content/2_img.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }

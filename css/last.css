@@ -403,3 +403,15 @@
         padding: 20px 20px 30px 20px;
     }
 }
+@media screen and (max-width: 410px){
+    .play_p{
+        margin-left: 6px;
+    }
+    .stop_p {
+        margin-left: 6px;
+    }
+    .mus_dur{
+        margin-right: 10px;
+        width: 80%;
+    }
+}

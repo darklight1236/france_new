@@ -22,7 +22,7 @@
     margin-bottom: 16px;
 }
 .btn_play_img{
-    width: 10%;
+    width: 5%;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -33,7 +33,7 @@
     transition: 0.2s;
 }
 .btn_play_img:hover{
-    width: 11%;
+    width: 6%;
 }
 /*.people_img{
     min-height: 543px;

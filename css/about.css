@@ -149,6 +149,7 @@
         width: 300px;
     }
 }
+
 @media (min-width: 375px) {
     /*.txt_box{
         width: 335px;
@@ -169,11 +170,19 @@
         height: 502px;
         margin-bottom: 32px;
     }
+    .btn_play_img{
+        width: 5%;
+    }
     /*.column_1{
         width: 335px;
     }*/
     .signature_box{
         width: 335px;
+    }
+}
+@media (max-width: 460px){
+    .btn_play_img{
+        width: 18%;
     }
 }
 @media (min-width: 650px){

@@ -8,6 +8,16 @@
 </head>
 <body>
     
+    <div class="NavbarMob">
+        <img id="CloseNavbar" class="CloseNavbar" src="img/header/CloseWhite.svg" >
+        <div class="NavMenu">
+            <a style="font-size: 32px;" href="#">Avenirtel</a>
+            <a onclick="ActiveNav(event)" href="about.html">Accuell</a>
+            <a onclick="ActiveNav(event)" href="request.html">Le planning</a>
+            <a onclick="ActiveNav(event)" href="table.html">Nos voyants</a>
+            <a onclick="ActiveNav(event)" href="last_page.html">Recrutement</a>
+        </div>
+    </div>
     <header class="Header">
         <div class="HeaderNavBlock">
             <a href="index.html">
@@ -20,6 +30,9 @@
                 <li class="nav_block"><a href="table.html" class="nav_link">Nos voyants</a></li>
                 <li class="nav_block"><a href="last_page.html" class="nav_link">Recrutement</a></li>
             </ul>
+            <div id="Menu" class="MobuleMenu">
+                <img height="48" width="48" src="/img/header/Burger.svg" alt="">
+            </div>
         </div>
     </header>
 
@@ -1092,5 +1105,6 @@
     </footer>
     <script src="js/app.js"></script>
     <script src="js/audio.js"></script>
+    <script src="js/burgerMenu.js"></script>
 </body>
 </html>

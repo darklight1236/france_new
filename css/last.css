@@ -262,8 +262,40 @@
     align-items: center;
     padding: 34px 40px;
 }
-
-
+.personal_music{
+    height: 42px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F3F3F3;
+    border-radius: 20px;
+}
+.play_p{
+    width: 30px;
+    height: 30px;
+    background: url("../img/music/play.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin-left: 6px;
+}
+.stop_p {
+    width: 30px;
+    height: 30px;
+    background: url(../img/music/stop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    border: 3px solid #f3f3f3;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+.mus_dur{
+    margin-right: 20px;
+    user-select: none;
+}
 
 @media screen and (max-width: 1015px){
     .single_first_block{
@@ -369,5 +401,17 @@
     }
     .comm_right{
         padding: 20px 20px 30px 20px;
+    }
+}
+@media screen and (max-width: 410px){
+    .play_p{
+        margin-left: 6px;
+    }
+    .stop_p {
+        margin-left: 6px;
+    }
+    .mus_dur{
+        margin-right: 10px;
+        width: 80%;
     }
 }

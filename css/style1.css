@@ -3,9 +3,35 @@
     min-height: 600px;
     height: auto;
     margin-top: 48px;
-    background: url(../img/carousel/carousel_1.svg);
+    /* background: url(../img/carousel/carousel_1.svg); */
+    position: relative;
 }
-
+.carousel{
+    width: inherit;
+    height: inherit;
+    position: relative;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.slide1 {
+    position: absolute;
+}
+.slide > img {
+    z-index: 50;
+    position: absolute;
+    object-fit: cover;
+    max-height: 600px;
+    width: 100%;
+}
+.slide .img_for_carousel:target{
+    z-index: 105;
+}
+.carousel .slide:target{
+    z-index: 100;
+}
 .first_block_carousel > .img_for_carousel > img{
     -webkit-object-fit: fill;
     -moz-object-fit: fill;
@@ -29,6 +55,7 @@
     position: relative;
     padding-left: 7.5rem;
     padding-top: 10rem;
+    z-index: 50;
 }
 .carousel__txt_title{
     width: 338px;

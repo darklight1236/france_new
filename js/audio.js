@@ -3,7 +3,6 @@ class CustomAudio{
 
         this.element = element;
         let controls = this.element;
-        console.log(controls);
         let loader = controls.parentNode.querySelector('.loader');
         controls.addEventListener("click", function() {
 

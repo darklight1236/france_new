@@ -5,6 +5,7 @@
     background: #EAFAFF;
     display: flex;
     justify-content: center;
+    z-index: 9999999;
 }
 .cookie_box_caption{
     font-family: Fahkwang;
@@ -64,6 +65,7 @@
     border: #1078D8 solid 2px;
     background: transparent;
     margin-top: 24px;
+    position: relative;
 }
 .btn_more:hover{
     border-color: #2295FF;
@@ -91,10 +93,10 @@ button:nth-child(5)
       transition: all .7s ease
       animation: grow 1s infinite
 -------------------------------------*/
-.btn_save:hover:before{
+.btn_save:hover:before, .btn_more:hover:before{
     content: ' ';
     border-radius: 50px;
-    border:  #2295FF solid 2px;
+    border:  #1078D8 solid 2px;
     position: absolute;
     left: 0;
     top: 0;

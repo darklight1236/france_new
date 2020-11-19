@@ -321,6 +321,7 @@
     /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
+    margin-bottom: 8px;
     
 }
 .p_block_up {
@@ -446,6 +447,23 @@
 .p_b_for_img{
     margin-right: 16px;
     user-select: none;
+    box-sizing: unset;
+    width: 120px;
+    height: 120px;
+    z-index: 5;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.ind_img {
+    transform: scale(1, 1);
+    max-width: 120px;
+    max-height: 120px;
+    z-index: 3;
+}
+.ind_img:hover {
+    transform: scale(1.2, 1.2);
+    max-width: 120px;
+    max-height: 120px;
 }
 .p_b__view{
     font-family: Fahkwang;

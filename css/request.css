@@ -63,7 +63,7 @@
     font-size: 16px;
     line-height: 130%;
     display: block;
-    margin: 8px auto;
+    margin: 16px auto;
     border: 1px solid #BBBBBB;
     padding: 13px 20px;
     color: #5F5F5F;
@@ -88,7 +88,61 @@
     resize: none;
     color: #5F5F5F;
 }
-
+/*------Валидация-------*/
+.valid{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.valid::before{
+    content: ' ';
+    height: 10px;
+    width: 10px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.error{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130%;
+    color: #CA4848;
+    padding: 0 20px;
+    display: none;
+    margin-bottom: 10px;
+}
+.input_txt:invalid:required{
+    border-color:#CA4848 !important;
+    margin-bottom: 4px;
+}
+.input_txt:valid:required{
+    border-color: #77DA54 !important;
+}
+.input_txt:invalid:required + .valid{
+    background:#CA4848;
+}
+.input_txt:valid:required + .valid{
+    background: #77DA54;
+}
+.input_txt:invalid:required + .valid::before{
+    background: url(../img/request/validator/error.svg);
+}
+.input_txt:valid:required + .valid::before{
+    background: url(../img/request/validator/success.svg);
+}
+.input_txt:invalid:required ~ .error{
+    display: block;
+}
+/*-------Конец---------*/
 #d_name{
     display: none;
     content: "Votre nom";
@@ -148,8 +202,7 @@ form > label{
     color: #5F5F5F;
     position: relative;
     display: block;
-    height: 48px;
-    margin: 8px auto;
+    margin: auto;
 }
 
 .captcha{
@@ -240,7 +293,6 @@ form > label{
     form > label{
         width: 100%;
         max-width: 705px;
-        height: 48px;
         margin: 8px auto;
     }
 }
@@ -286,7 +338,6 @@ form > label{
 
     form > label{
         width: 705px;
-        height: 48px;
         margin: 8px auto;
     }
 }
@@ -333,7 +384,6 @@ form > label{
 
     form > label{
         width: 705px;
-        height: 48px;
         margin: 8px auto;
     }
 }

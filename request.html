@@ -60,12 +60,39 @@
             </div>
 
             <div class="request_title_form">Veuillez remplir le formulaire ci-dessous à la validation votre demande sera envoyée à notre service recrutement</div>
-            <form>
-                <label><div id="d_name">Votre nom</div><input class="input_txt" type="text" placeholder="Votre nom" id="name" oninput="labelShow(this.id)"></label>
-                <label><div id="d_log">Votre prénom</div><input class="input_txt" type="text" placeholder="Votre prénom" id="log" oninput="labelShow(this.id)"></label>
-                <label><div id="d_email">Votre courriel</div><input class="input_txt" type="text" placeholder="Votre courriel" id="email" oninput="labelShow(this.id)"></label>
-                <label><div id="d_phone">Votre numéro de téléphone</div><input class="input_txt" type="text" placeholder="Votre numéro de téléphone" id="phone" oninput="labelShow(this.id)"></label>
-                <label class="_comments"><div id="d_comments">Commentaires</div><textarea class="comments" placeholder="Commentaires" id="comments" oninput="labelShow(this.id)"></textarea></label>
+            <form >
+                <label>
+                    <div id="d_name">Votre nom</div>
+                    <input class="input_txt" type="text" placeholder="Votre nom" id="name" oninput="labelShow(this.id)">
+                    <div class="valid"></div>
+                    <p class="error">Error</p>
+                </label>
+
+                <label>
+                    <div id="d_log">Votre prénom</div>
+                    <input class="input_txt" type="text" placeholder="Votre prénom" id="log" oninput="labelShow(this.id)">
+                    <div class="valid"></div>
+                    <p class="error">Error</p>
+                </label>
+
+                <label>
+                    <div id="d_email">Votre courriel</div>
+                    <input class="input_txt" type="text" placeholder="Votre courriel" id="email" oninput="labelShow(this.id)">
+                    <div class="valid"></div>
+                    <p class="error">Error</p>
+                </label>
+
+                <label>
+                    <div id="d_phone">Votre numéro de téléphone</div>
+                    <input class="input_txt" type="text" placeholder="Votre numéro de téléphone" id="phone" oninput="labelShow(this.id)">
+                    <div class="valid"></div>
+                    <p class="error">Error</p>
+                </label>
+
+                <label class="_comments">
+                    <div id="d_comments">Commentaires</div>
+                    <textarea class="comments" placeholder="Commentaires" id="comments" oninput="labelShow(this.id)"></textarea>
+                </label>
 
                 <div class="captcha">
                     <form action="?" method="POST">
@@ -74,7 +101,7 @@
                       </form>
                 </div>
 
-                <button class="submit_form" type="submit">
+                <button class="submit_form" type="submit" onclick="submit()">
                     <div class="submit_form_img"></div>Envoyer ma demande
                 </button>
             </form>
@@ -115,5 +142,6 @@
     </footer>
     <script src="js/app.js"></script>
     <script src="js/burgerMenu.js"></script>
+    <script src="js/validator.js"></script>
 </body>
 </html>

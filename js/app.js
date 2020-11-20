@@ -23,5 +23,5 @@ function closeCookie(){
     document.querySelector(".cookie_box").style.display = "none"
 }
 
-const secretKey = "6Le8kOIZAAAAADAmcd2RjszWcN6_flOZtoE3tA1x";
-const siteKey = "6Le8kOIZAAAAAC-7KMNyplEKZ_WG_gvTmz5F8vUZ"
+const secretKey = "6Le8kOIZAAAAADAmcd2RjszWcN6_flOZtoE3tA1x",
+      siteKey = "6Le8kOIZAAAAAC-7KMNyplEKZ_WG_gvTmz5F8vUZ";

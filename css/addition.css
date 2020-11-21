@@ -1,0 +1,47 @@
+.header_caption{
+    font-family: Fahkwang;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+.sub_caption{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.add_header{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.add_header::before{
+    content: ' ';
+    width: 5px;
+    height: 5px;
+    background: #CA4848;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.ad_txt{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.highlight{
+    color: #CA4848;
+}

@@ -28,7 +28,7 @@
     content: ' ';
     width: 5px;
     height: 5px;
-    background: #CA4848;
+    background: #1078D8;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
@@ -51,7 +51,7 @@
     margin-bottom: 16px;
 }
 .highlight{
-    color: #CA4848;
+    color: #1078D8;
 }
 .li{
     padding-right: 16px;
@@ -81,7 +81,7 @@
     width: 25%;
     min-width: 190px;
     padding: 8px 0;
-    color: #CA4848;
+    color:#1078D8;
 }
 
 .container_a{
